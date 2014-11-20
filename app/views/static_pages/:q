@@ -1,10 +1,9 @@
-
+<div class="cen<% provide(:title, 'Home') %>ter hero-unit">
 <h1>Welcome to the Sample App</h1>
 <h2>
     This is the home page for the
     <a href="http://railstutorial.jp/">Ruby on Rails Tutorial</a>
     sample application.
-    Ruby on railsをお勉強中です。昨日から。ようやくこういうのが作れるようになりました
 </h2>
 
 <%= link_to "Sign up now!!", signup_path, class:"btn btn-large btn-primary" %>
